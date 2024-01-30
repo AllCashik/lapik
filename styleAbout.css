@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 195px;
+    display: flex;
+    width: 145px;
+    height: 40px;
+}
+#iconText{
+    margin-top: 5px;
+    width: 94px;
+    height: 28px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+.header ol{
+    margin-top: 49px;
+    display: flex;
+    margin-left: 100px;
+}
+.header ol li{
+    margin-right: 40px;
+}
+.header ol li a{
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Exo 2', sans-serif;
+}
+.telephone{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.telephone img{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+.telephone h1{
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.sectionAbout{
+    width: 100%;
+    height: 855px;
+    background-image: url(AboutBG.png);
+}
+.sectionAbout div h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+}
+.sectionAbout div p{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    width: 50%;
+    line-height: 42px;
+    margin-top: 25px;
+}
+#about{
+    padding-top: 15%;
+    padding-left: 10%;
+}
+#divButton button{
+    width: 255px;
+    background: none;
+    height: 60px;
+    top: 732px;
+    left: 198px;
+    border: 1px solid #FFFFFF4D;
+    color: #FFFFFFBF;
+    margin-right: 60px;
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+}
+#divButton button:hover{
+    border: none;
+    color: #000;
+    background-color: #FFFFFF4D;
+}
+
+.sectionContact{
+    width: 100%;
+    height: 607px;
+    background-color: #222222;
+}
+.sectionContact div:first-of-type{
+    position: absolute;
+    width: 600px;
+    height: 370px;
+    left: 195px;
+    margin-top: 80px;
+}
+.sectionContact div:first-of-type p{
+    color: #AAAAAA;
+    font-size: 18px;
+    line-height: 23.29px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 29px;
+}
+.sectionContact div:first-of-type p img{
+    margin-right: 40px;
+}
+.sectionContact div:first-of-type p span{
+    margin-left: 57px;
+}
+.sectionContact div:first-of-type p:first-of-type{
+    color: #AAAAAA;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 23.29px;
+    margin-top: 30px;
+}
+.sectionContact div:first-of-type h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#rights{
+    color: #AAAAAA;
+    line-height: 23.29px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    left: 187px;
+    margin-top: 550px;
+}
+#privacy_policy{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    position: absolute;
+    left: 845px;
+    margin-top: 550px;
+}
+#privacy_policy:visited{
+    color: #FFFFFF;
+}
+#privacy_policy:link{
+    color: #FFFFFF;
+}
+#ol1{
+    position: absolute;
+    left: 845px;
+    list-style-type: none;
+    margin-top: 80px;
+}
+#ol1 a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 54px;
+}
+#ol1 a:link{
+    color: #FFFFFF;
+}
+#ol1 a:visited{
+    color: #FFFFFF;
+}
+#ol2{
+    position: absolute;
+    left: 1105px;
+    list-style-type: none;
+    margin-top: 80px;
+}
+#ol2 a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 54px;
+}
+#ol2 a:link{
+    color: #FFFFFF;
+}
+#ol2 a:visited{
+    color: #FFFFFF;
+}
+.sectionContact div{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 1365px;
+    margin-top: 80px;
+}
+#nameInput{
+    width: 360px;
+    height: 60px;
+    border: 1px solid #FFFFFF4D;
+    background: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #888888;
+    padding-left: 20px;
+}
+#telInput{
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    height: 60px;
+    border: 1px solid #FFFFFF4D;
+    background: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #888888;
+}
+#textInput{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    height: 120px;
+    border: 1px solid #FFFFFF4D;
+    background: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #888888;
+    resize: none;
+}
+#butContact{
+    width: 230px;
+    height: 60px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    background-color: #E12126;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 151px;
+}
+#butContact:hover{
+    border: 2px #000 solid;
+}
+
+#butContact:active{
+    background-color: #b6191d;
+}
